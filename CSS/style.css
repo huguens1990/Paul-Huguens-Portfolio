@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 14vh;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.presentation {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 70px;
+    height: 78.6vh;
+    margin-top: 130px;
+}
+
+.presentation_flex {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.presentation .present_grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 100%;
+}
+
+.present_grid_text {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+.present_grid_text_flex {
+    text-align: center;
+}
+
+.present_grid_text_flex h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.present_grid_text_flex h2 span {
+    color: teal;
+}
+
+.present_grid_text_flex button {
+    margin-top: 20px;
+}
+
+.present_grid_img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.present_grid_img img {
+    width: 310px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+/*A propos*/
+#aPropos {
+    background-color: #eee;
+    padding: 70px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#aPropos h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: teal;
+}
+
+.aPropos_grid {
+    width: 100%;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 60% 40%;
+    margin-top: 50px;
+}
+
+.aPropos_grid_text {
+    display: flex;
+    align-items: center;
+
+}
+
+.aPropos_grid_text span {
+    color: teal;
+}
+
+.aPropos_grid_text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.aPropos_grid_img img {
+    width: 350px;
+    border-radius: 100%;
+    border: 5px solid teal;
+    margin-left: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+/*projets*/
+#projets {
+    padding: 70px;
+}
+
+#projets h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: teal;
+}
+
+.projets_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.projets_grid div {
+    text-align: center;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 26px 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.projets_grid div p {
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+#projets div .martop {
+    margin-top: 30px;
+}
+
+#projets div button {
+    padding: 5px 30px;
+}
+
+
+
+/*competences*/
+#competences {
+    background-color: #eee;
+    padding: 70px 120px;
+}
+
+#competences h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: teal;
+}
+
+.competences_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.competences_grid .competences_container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 35px 26px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#competences h3 {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#competences .bar_skills {
+    width: 90%;
+    margin-top: 20px;
+}
+
+#competences .bar_skills p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+#competences .bar_container {
+    background-color: #eee;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+}
+
+#competences .bar_container .bar_shower {
+    background-color: teal;
+    height: 8px;
+    border-radius: 5px;
+}
+
+#competences .bar_container .bar1 {
+    width: 75%;
+}
+
+#competences .bar_container .bar2 {
+    width: 65%;
+}
+
+#competences .bar_container .bar3 {
+    width: 85%;
+}
+
+#competences .bar_container .bar4 {
+    width: 95%;
+}
+
+#competences .bar_container .bar5 {
+    width: 66%;
+}
+
+#competences .bar_container .bar6 {
+    width: 80%;
+}
+
+#competences .bar_container .bar7 {
+    width: 98.2%;
+}
+
+
+
+/*contact*/
+#contact {
+    background-color: black;
+    padding: 30px 330px;
+    width: 100%;
+}
+
+#contact h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#contact h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+}
+
+#contact h2 span,
+#contact h3 span {
+    color: teal;
+}
+
+.contact_input_div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_input_div .contact_input_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 20px;
+}
+
+.contact_input_div .contact_input_grid div input,
+.contact_input_div .contact_input_block div input {
+    border: 1px solid teal;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 6px 8px;
+}
+
+.contact_input_div .contact_input_grid div label {
+    display: block;
+}
+
+.contact_input_block div {
+    margin-top: 8px;
+}
+
+.contact_input_div label,
+.contact_input_div textarea {
+    font-size: 14px;
+    color: white;
+}
+
+.contact_input_div input::placeholder,
+.contact_input_div textarea::placeholder {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+
+.contact_input_div textarea {
+    width: 100%;
+    height: 260px;
+    padding: 6px 8px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.button_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_div button {
+    border: 1px solid white;
+}
+
+@media (max-width: 1114px) {
+    :target {
+        scroll-margin-top: 10vh;
+    }
+
+    .presentation {
+        width: 100%;
+        height: fit-content;
+        padding: 50px 30px;
+        height: fit-content;
+        margin-top: 80px;
+    }
+
+    .presentation .present_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .present_grid_text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .present_grid_text_flex {
+        width: 100%;
+    }
+
+    .present_grid_text_flex h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+        font-weight: 400;
+    }
+
+    .present_grid_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .present_grid_img img {
+        width: 310px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    /*A propos*/
+    #aPropos {
+        background-color: #eee;
+        padding: 50px 30px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .aPropos_grid {
+        width: 100%;
+        display: grid;
+        height: fit-content;
+        grid-template-columns: 100%;
+        margin-top: 30px;
+    }
+
+    .aPropos_grid_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aPropos_grid_text p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .aPropos_grid_img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .aPropos_grid_img img {
+        width: 260px;
+        border-radius: 100%;
+        border: 5px solid teal;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .button_div_propos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+
+    /*projets*/
+    #projets {
+        padding: 50px 30px;
+    }
+
+    #projets h2 {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        color: teal;
+    }
+
+    .projets_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+
+
+    /*competences*/
+    #competences {
+        background-color: #eee;
+        padding: 50px 30px;
+    }
+
+    .competences_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        margin-top: 30px;
+        font-family: "Roboto", sans-serif;
+
+    }
+
+
+
+    /*contact*/
+    #contact {
+        background-color: black;
+        padding: 30px 50px;
+        width: 100%;
+    }
+
+    #contact h2 {
+        font-size: 30px;
+    }
+
+    #contact h3 {
+        font-size: 26px;
+        margin-top: 0px;
+    }
+
+    .contact_input_div .contact_input_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 8px;
+        margin-top: 20px;
+    }
+
+    .contact_input_div input::placeholder,
+    .contact_input_div textarea::placeholder {
+        font-size: 14px;
+    }
+
+}

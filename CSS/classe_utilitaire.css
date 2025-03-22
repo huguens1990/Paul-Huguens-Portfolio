@@ -1,0 +1,29 @@
+button {
+    margin-top: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    scale: 1.02;
+}
+.marginT-10{
+    margin-top: 5px;
+}
+.btn_presentation{
+    margin-top: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 600;
+}

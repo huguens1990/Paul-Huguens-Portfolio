@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Paul Huguens, développeur web en devenir, Découvrez mes projets en HTML, CSS, Javascript et plusencore.">
+    <meta name="author" content="Paul Huguens">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/classe_utilitaire.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Portfolio | Développeur Web</title>
+</head>
+
+<body>
+    <!--menu-->
+    <header>
+        <h1>Paul + <span>Huguens</span></h1>
+        <div class="icon_menu_respond">
+            <img id="closeMenu" onclick="menuDisppart();" src="MEDIA/icon/arrow (3).png" alt="">
+            <img id="openMenu" onclick="menuAppart();" src="MEDIA/icon/menu (3).png" alt="">
+
+        </div>
+        <nav>
+            <ul>
+                <li id="elementA"><a href="#acceuil" class="active">Acceuil</a></li>
+                <li id="elementB"><a href="#aPropos">À propos</a></li>
+                <li id="elementC"><a href="#projets">Projets</a></li>
+                <li id="elementD"><a href="#competences">Compétences</a></li>
+                <li id="elementE"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentation" id="acceuil">
+            <div class="presentation_flex">
+                <div class="present_grid">
+                    <div class="present_grid_text">
+                        <div class="present_grid_text_flex">
+                            <h2 data-aos="zoom-in">Je suis <span>Huguens</span>, Développeur en devenir <br>
+                                passionné par le web et le design !</h2>
+                            <a href="#projets"><button data-aos="zoom-in">Voir mes projets</button></a>
+                        </div>
+
+                    </div>
+                    <div class="present_grid_img">
+                        <img data-aos="zoom-in" src="MEDIA/image/illustration.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aPropos">
+            <h2 data-aos="zoom-in">À Propos</h2>
+            <div class="aPropos_grid">
+                <div class="aPropos_grid_text">
+                    <div>
+                        <p data-aos="zoom-in">Je m'appelle <span>Paul Huguens</span>, passionné par la <br> création de sites web
+                            modernes et interactifs <br><br>
+
+                            Je suis actuellement étudiant(e) en <span>développement web</span>,<br> et je cherche à
+                            améliorer mes compétences en JavaScript, HTML, et CSS. <br><br>
+
+
+                            J'adore transformer mes idées en projets concrets <br> et expérimenter avec les nouvelles
+                            technologies.</p>
+                        <div class="button_div_propos">
+                            <button data-aos="zoom-in">Télécharger mon CV</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="aPropos_grid_img">
+                    <img data-aos="zoom-in" src="MEDIA/image/Design sans titre (10).png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h2 data-aos="zoom-in">Mes Projets</h2>
+            <div class="projets_grid">
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <p class="martop">#html, #css#est</p>
+                    <button>Voir</button>
+                </div>
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+                    <p class="martop">#html, #css#est</p>
+                    <button>Voir</button>
+                </div>
+                <div data-aos="zoom-in">
+                    <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM. </p>
+                    <p class="martop">#html, #css#est</p>
+
+                    <button>Voir</button>
+                </div>
+        </section>
+
+        <section id="competences">
+            <h2 data-aos="zoom-in">Mes Compétences</h2>
+            <div class="competences_grid">
+                <div class="competences_container" data-aos="zoom-in">
+
+                    <h3 >Soft Skills</h3>
+                    <div class="bar_skills">
+                        <p>Gestion de projet</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar1"></div>
+                        </div>
+
+                        <p class="marginT-10"> Résolution de problème</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar2"></div>
+                        </div>
+
+                        <p class="marginT-10">Adaptabilité</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar3"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="competences_container" data-aos="zoom-in">
+                    <h3>Hard Skills</h3>
+                    <div class="bar_skills">
+                        <p class="marginT-10">HTML</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar4"></div>
+                        </div>
+
+                        <p class="marginT-10">CSS</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar5"></div>
+                        </div>
+                        <p class="marginT-10">Javascript</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar6"></div>
+                        </div>
+
+                        <p class="marginT-10">VS Code</p>
+                        <div class="bar_container">
+                            <div class="bar_shower bar7"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2 data-aos="zoom-in">Vous avez <span>un projet en tête ?</span> </h2>
+            <h3 data-aos="zoom-in">N'hésitez pas à me <span>contacter</span></h3>
+
+            <div class="contact_input_div" data-aos="zoom-in">
+                <div class="contact_input_grid">
+                    <div>
+                        <label for="prenom">Votre prénom</label>
+                        <input id="prenom" type="text" placeholder="John">
+                    </div>
+                    <div>
+                        <label for="nom">Votre nom</label>
+                        <input id="nom" type="text" placeholder="Doe">
+                    </div>
+                </div>
+
+                <div class="contact_input_block">
+                    <div>
+                        <label for="sujet">Votre sujet</label>
+                        <input id="sujet" type="text" placeholder="Developpement d'un site vitrine">
+                    </div>
+
+
+                    <textarea
+                        placeholder="Bonjour, Je souhaite créer un site vitrine avec une présentation, mes services, un portfolio et un contact. Il doit être moderne, responsive et optimisé SEO."></textarea>
+                </div>
+
+                <div class="button_div">
+                    <button>Envoyez</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_grid">
+            <div>
+                <p>Designed by <span>Paul Huguens</span> with HTML CSS JS</p>
+            </div>
+            <div>
+                <p>Tous droits réservés - 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JAVASCRIPT/jscode.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
